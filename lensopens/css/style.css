@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+} /*pak kardan e sefid ha*/
+
+body {
+	margin: 20px;
+	padding: 20px;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height:26px;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+a:link {
+	color: #FDA007;
+	
+}
+#text_bottom {
+	align-items:center;
+	
+}
+#text_bottom li{
+	list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+	float:left;
+	width: 48%;
+}
+
+.button {
+	alignment-adjust:central;
+	
+	font-size: 14px;
+    background-color:#585656 ; /* Green */
+    border: none;
+    color: white;
+	border-radius: 8px;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 1px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    left:40%
+
+}
+
+.w-content{
+	 height: 100%;
+  width: 100%;
+  position: relative;
+  min-height: 100px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%); 
+}
+
+.w-content td.break{
+  padding-right: 15px;
+}
+.w-content tr{
+  height: 35px;
+}
+
+.photo_bottom {
+	alignment-baseline:after-edge;
+	position:inherit;
+	align-items:center;
+	
+}
+
+.photo_bottom li{
+	list-style-type:none;
+	list-style-image:none;
+      margin:0;
+     padding:0;
+	float:left;
+	width: 33.33%;
+}
+
+#top {
+	position:fixed;
+	top: 0;
+
+}
