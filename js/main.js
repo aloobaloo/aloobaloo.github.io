@@ -1,9 +1,9 @@
 (function($) {
   "use strict";
-  $(window).on("load", function() { // makes sure the whole site is loaded
+  $(document).on("ready", function() { // makes sure the whole site is loaded
     //preloader
     $("#status").fadeOut(); // will first fade out the loading animation
-    $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
+    $("#preloader").delay(1).fadeOut("slow"); // will fade out the white DIV that covers the website.
     
     //masonry
     $('.grid').masonry({
@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["انیمیشن داستانی","عکاسی قصه گو","مصورسازی اطلاعات" ],
+        strings: ["من حدیث ملکی میزبان شما هستم","با فیلمسازی انیمیشن برایتان از معماهای کامپیوتر می گویم" ],
         typeSpeed: 110,
         backDelay: 900,
         // loop
